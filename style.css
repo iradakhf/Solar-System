@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    overflow: hidden;
+}
+.general{
+     width: 100%;
+    }
+.general img{
+        width: 100%;
+     position: relative;
+     overflow: none;
+
+}
+.general .bottom h2{
+    animation: scale-up-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite both;
+}
+.general .bottom .milkway{
+    width: 30%;
+    position: absolute;
+    bottom: -2rem;
+    left: -5rem;
+    transform: rotate(40deg);
+    clip-path: ellipse(43% 28% at 50% 50%);
+}
+.general .bottom .milkway img{
+    width: 100%;
+}
+.general .bottom .person1{
+    position: absolute;
+    top: 20rem;
+    left: 15rem;
+    color: cornsilk;
+    font-size: 1rem;
+    animation: goSpace 5s linear infinite both;
+
+}
+@keyframes goSpace {
+    from{
+        transform: translateY(-600px) scale(0);
+    }
+    to{
+        transform: translateY(0px) scale(2);
+
+    }
+}
+@keyframes scale-up-center {
+    0% {
+              transform: scale(0.5);
+    }
+    100% {
+              transform: scale(1);
+    }
+  }
+.general .bottom .N{
+    position: absolute;
+    bottom: 7rem;
+    left: 62rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .bottom .s{
+    position: absolute;
+    bottom: 15rem;
+    right: 40rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .sun{
+    position: absolute;
+    bottom: 13rem;
+    right: 40rem;
+    width: 6%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .sun img{
+    width: 100%;
+    clip-path: circle(31.5% at 50% 50%);
+
+}
+
+.general .top .box{
+    position: absolute;
+    bottom: 8rem;
+    left: 62rem;
+    width: 6%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box img{
+    width: 100%;
+    clip-path: circle(31.5% at 50% 50%);
+
+}
+.general .bottom .U{
+    position: absolute;
+    bottom: -1rem;
+    right: 40rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .box1{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 40rem;
+    width: 6%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box1 img{
+    width: 100%;
+    clip-path: circle(31.5% at 50% 50%);
+
+}
+.general .bottom .S{
+    position: absolute;
+    bottom: 8rem;
+    left: 20rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .box2{
+    position: absolute;
+    bottom: 8rem;
+    left: 20rem;
+    width: 11%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box2 img{
+    width: 100%;
+    clip-path: circle(28.5% at 50% 50%);
+
+}
+.general .bottom .J{
+    position: absolute;
+    bottom: 12rem;
+    left: 54.5rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .box3{
+    position: absolute;
+    bottom: 14rem;
+    left: 54.5rem;
+    width: 8%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box3 img{
+    width: 100%;
+    clip-path: circle(37.5% at 50% 50%);
+
+}
+.general .bottom .MA{
+    position: absolute;
+    bottom: 7.5rem;
+    left: 35rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .box4{
+    position: absolute;
+    bottom: 8.5rem;
+    left: 35rem;
+    width: 4%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box4 img{
+    width: 100%;
+    clip-path: circle(41.5% at 50% 50%);
+
+}
+.general .bottom .E{
+    position: absolute;
+    top: 13rem;
+    left: 40rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .box5{
+    position: absolute;
+    top: 14rem;
+    left: 40rem;
+    width: 5%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box5 img{
+    width: 100%;
+    clip-path: circle(41.5% at 50% 50%);
+
+}
+.general .bottom .V{
+    position: absolute;
+    bottom: 13rem;
+    left: 32rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .box6{
+    position: absolute;
+    bottom: 14rem;
+    left: 32rem;
+    width: 4%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box6 img{
+    width: 100%;
+    clip-path: circle(38.5% at 50% 50%);
+
+}
+.general .bottom .M{
+    position: absolute;
+    bottom: 15rem;
+    left: 44rem;
+    width: 6%;
+    z-index: 2;
+    color: wheat;
+    font-size: 15px;
+}
+.general .top .box7{
+    position: absolute;
+    bottom: 16rem;
+    left: 44rem;
+    width: 3%;
+    z-index: 2;
+    animation: rotate-center 2s linear infinite both;
+}
+.general .top .box7 img{
+    width: 100%;
+    clip-path: circle(35.5% at 50% 50%);
+
+}
+  @keyframes rotate-center {
+    0% {
+              transform: rotate(0);
+    }
+    100% {
+              transform: rotate(360deg);
+    }
+  }
+.general .mercury{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 3rem;
+    position: absolute;
+    top: 20rem;
+    left: 39rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+}
+.general .bottom .star1{
+    position: absolute;
+    top: 3rem;
+    left: 17rem;
+padding: 5rem;
+
+}
+.general .bottom .star1 i{
+    animation: scale-down-center 4s ease-in infinite both;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+@keyframes scale-down-center {
+    0% {
+              transform: scale(1);
+    }
+    100% {
+              transform: scale(0);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+              transform: scale(1);
+    }
+    100% {
+              transform: scale(2);
+    }
+  }
+.general .bottom .star2{
+    position: absolute;
+    top: 2rem;
+    left: 25rem;
+padding: 5rem;
+
+}
+.general .bottom .rocket1{
+    position: absolute;
+    top: 12rem;
+    left: 40rem;
+}
+.general .bottom .rocket1 i{
+    animation: slide-out-elliptic-top-bck 5s ease-in infinite both;
+color: azure;
+font-size: 3rem;
+}
+.general .bottom .rocket2{
+    position: absolute;
+    bottom: 12rem;
+    left: 40rem;
+}
+.general .bottom .rocket2 i{
+    animation: slide-out-elliptic-top-bck2 5s ease-in infinite both;
+color: rgb(31, 224, 224);
+font-size: 3rem;
+}
+.general .bottom .rocket3{
+    position: absolute;
+    bottom: 5rem;
+    left: 40rem;
+}
+.general .bottom .rocket3 i{
+    animation: slide-out-elliptic-top-bck3 5s ease-in infinite both;
+color: rgb(241, 197, 21);
+font-size: 3rem;
+}
+@keyframes slide-out-elliptic-top-bck {
+    100% {
+        transform: translateX(600px) rotateY(180deg) scale(0);
+
+              transform-origin: 50% 140px;
+      opacity: 1;
+    }
+    0% {
+        transform-origin: 50% 50%;
+        transform: translateX(0) rotateY(0) scale(1);
+
+opacity: 1;
+}
+  }
+  @keyframes slide-out-elliptic-top-bck2 {
+    0% {
+        transform: translateX(-600px) rotateY(180deg) scale(0);
+
+              transform-origin: 50% 140px;
+      opacity: 1;
+    }
+    100% {
+        transform-origin: 50% 50%;
+        transform: translateX(0) rotateY(0) scale(1);
+
+opacity: 1;
+}
+  }
+  @keyframes slide-out-elliptic-top-bck3 {
+    100% {
+        transform: translateY(-600px) rotateY(180deg) scale(0);
+
+              transform-origin: 50% 140px;
+      opacity: 1;
+    }
+    0% {
+        transform-origin: 50% 50%;
+        transform: translateX(0) rotateY(0) scale(1);
+
+opacity: 1;
+}
+  }
+.general .bottom .star2 i{
+    animation: scale-down-center 4s ease-in infinite both;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star3{
+    position: absolute;
+    top: 6rem;
+    left: 28rem;
+padding: 5rem;
+
+}
+.general .bottom .star3 i{
+    animation: scale-down-center 4s ease-in infinite both;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star4{
+    position: absolute;
+    top: 3rem;
+    left: 32rem;
+padding: 5rem;
+
+}
+.general .bottom .star4 i{
+    animation: scale-down-center 4s ease-in infinite both;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star5{
+    position: absolute;
+    top: 7rem;
+    left: 38rem;
+padding: 5rem;
+
+}
+.general .bottom .star5 i{
+    animation: scale-down-center 4s ease-in infinite both;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star6{
+    position: absolute;
+    top: 3rem;
+    right: 17rem;
+padding: 5rem;
+
+}
+.general .bottom .star6 i{
+    animation: scale-up-center 4s ease-out infinite both;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star7{
+    position: absolute;
+    top: 2rem;
+    right: 25rem;
+padding: 5rem;
+
+}
+.general .bottom .star7 i{
+    animation: scale-up-center 4s ease-out infinite both;
+
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star8{
+    position: absolute;
+    top: 6rem;
+    right: 28rem;
+padding: 5rem;
+
+}
+.general .bottom .star8 i{
+    animation: scale-up-center 4s ease-out infinite both;
+
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star9{
+    position: absolute;
+    top: 3rem;
+    right: 32rem;
+padding: 5rem;
+
+}
+.general .bottom .star9 i{
+    animation: scale-up-center 4s ease-out infinite both;
+
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .bottom .star10{
+    position: absolute;
+    top: 7rem;
+    right: 38rem;
+padding: 5rem;
+
+}
+.general .bottom .star10 i{
+    animation: scale-up-center 4s ease-out infinite both;
+
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    font-size: 1.5rem;
+    color: yellow;
+    box-shadow: 1px 4px 27px 10px rgba(243, 207, 5, 0.8);
+}
+.general .venus{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 6rem;
+    position: absolute;
+    top: 18rem;
+    left: 36rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+}
+.general .earth{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 8rem;
+    position: absolute;
+    top: 16rem;
+    left: 34rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+}
+
+.general .mars{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 10rem;
+    position: absolute;
+    top: 14rem;
+    left: 32rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+}
+.general .jupiter{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 12rem;
+    position: absolute;
+    top: 12rem;
+    left: 30rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+}
+.general .saturn{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 14rem;
+    position: absolute;
+    top: 10rem;
+    left: 28rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+}
+.general .uranus{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 16rem;
+    position: absolute;
+    top: 8rem;
+    left: 26rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+
+}
+.general .neptune{
+    border: 1px solid grey;
+    border-radius: 50rem;
+    padding: 18rem;
+    position: absolute;
+    top: 6rem;
+    left: 24rem;
+    transform: scale(1.1) rotate(46deg) translate(0px, 10px) skew(-6deg, -22deg);
+
+}
